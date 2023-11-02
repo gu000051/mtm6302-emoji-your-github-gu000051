@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  border: 1px solid  black;
+  max-width: 80%;
+  margin-left: 50 px;
+  margin-right: 50 px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+#emojiGallary {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.emoji-item {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
